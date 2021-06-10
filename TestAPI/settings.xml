@@ -6,7 +6,7 @@
   <con:definitionCache type="TEXT" rootPart="TestAPI.json">
     <con:part>
       <con:url>TestAPI.json</con:url>
-      <con:content>{"openapi":"3.0.1","info":{"title":"TestAPI","version":"1.0.0"},"servers":[{"url":"/"}],"paths":{"/Dummy API":{"get":{"responses":{"default":{"description":"Default response"}}}}}}</con:content>
+      <con:content>{"openapi":"3.0.1","info":{"title":"TestAPI","version":"1.0.0"},"servers":[{"url":"/"}],"paths":{"/Dummy API":{"description":"","get":{"description":"","responses":{"default":{"description":"Default response"}}}}}}</con:content>
       <con:type>https://swagger.io/openapiv3/specification</con:type>
     </con:part>
   </con:definitionCache>

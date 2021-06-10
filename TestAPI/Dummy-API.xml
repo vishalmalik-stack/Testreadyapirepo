@@ -11,7 +11,7 @@
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
       </con:settings>
-      <con:endpoint>https://reqres.in/api/users?page=2</con:endpoint>
+      <con:endpoint>https://reqres.in/api/users?page=1</con:endpoint>
       <con:request/>
       <con:originalUri>https://reqres.in/api/users</con:originalUri>
       <con:credentials>
