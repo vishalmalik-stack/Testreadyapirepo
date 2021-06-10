@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="632a5e2c-fc3b-420c-9e01-02b927e09ac5" name="TestAPI" type="rest_ex" wadlVersion="https://swagger.io/openapiv3/specification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="632a5e2c-fc3b-420c-9e01-02b927e09ac5fileName">TestAPI</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart="TestAPI.json">
+    <con:part>
+      <con:url>TestAPI.json</con:url>
+      <con:content>{"openapi":"3.0.1","info":{"title":"TestAPI","version":"1.0.0"},"servers":[{"url":"/"}],"paths":{"/Dummy API":{"get":{"responses":{"default":{"description":"Default response"}}}}}}</con:content>
+      <con:type>https://swagger.io/openapiv3/specification</con:type>
+    </con:part>
+  </con:definitionCache>
+  <con:endpoints>
+    <con:endpoint>https://reqres.in/api/users?page=2</con:endpoint>
+  </con:endpoints>
+</con:interface>
