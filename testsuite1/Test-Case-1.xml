@@ -8,7 +8,9 @@
     <con:settings/>
     <con:config service="TestAPI" methodName="Method 1" resourcePath="/Dummy API" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:restRequest name="REST Request" id="cc6c802a-4e9a-4d74-b1b2-1418f8728f18" mediaType="application/json">
-        <con:settings/>
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
         <con:encoding>UTF-8</con:encoding>
         <con:endpoint>https://reqres.in/api/users?page=2</con:endpoint>
         <con:request/>
@@ -28,6 +30,7 @@
           <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
           <con:authType>No Authorization</con:authType>
         </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:parameters/>
       </con:restRequest>
     </con:config>

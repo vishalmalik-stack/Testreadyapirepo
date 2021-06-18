@@ -7,6 +7,8 @@
     <con:setting id="FlowLayout">false</con:setting>
     <con:setting id="ErrorDetails">true</con:setting>
     <con:setting id="IncludeCoverage">true</con:setting>
+    <con:setting id="GeneratableJUnitReport@Style">Multiple Pages</con:setting>
+    <con:setting id="GeneratableJUnitReport@Folder">D:\GithubProject\ReadyAPIUpdatedProject\reports\reports</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:runType>SEQUENTIAL</con:runType>
