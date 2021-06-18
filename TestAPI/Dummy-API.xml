@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="Dummy API" path="/Dummy API" id="e53422a5-8312-4c3a-87ab-182b8d503b41" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="e53422a5-8312-4c3a-87ab-182b8d503b41" name="Dummy API" path="/Dummy API" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="e53422a5-8312-4c3a-87ab-182b8d503b41fileName">Dummy-API</con:setting>
   </con:settings>
   <con:parameters/>
-  <con:method name="Method 1" id="9524cdca-860a-4590-9456-ade6ecf609af" method="GET">
+  <con:method id="9524cdca-860a-4590-9456-ade6ecf609af" method="GET" name="Method 1">
     <con:settings/>
     <con:parameters/>
-    <con:request name="Request 1" id="7b52a192-45d5-4eb0-9dee-8387688c4ade" mediaType="application/json">
+    <con:request id="7b52a192-45d5-4eb0-9dee-8387688c4ade" mediaType="application/json" name="Request 1">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
       </con:settings>

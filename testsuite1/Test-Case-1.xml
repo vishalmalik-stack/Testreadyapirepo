@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="d62a0417-807e-4256-9edd-6fb7518c1b81" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" id="d62a0417-807e-4256-9edd-6fb7518c1b81" keepSession="false" name="Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="d62a0417-807e-4256-9edd-6fb7518c1b81fileName">Test-Case-1</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
-  <con:testStep type="restrequest" name="REST Request" id="e8767cb4-3341-42a4-9730-3095648c0339">
+  <con:testStep id="e8767cb4-3341-42a4-9730-3095648c0339" name="REST Request" type="restrequest">
     <con:settings/>
-    <con:config service="TestAPI" methodName="Method 1" resourcePath="/Dummy API" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <con:restRequest name="REST Request" id="cc6c802a-4e9a-4d74-b1b2-1418f8728f18" mediaType="application/json">
+    <con:config xsi:type="con:RestRequestStep" methodName="Method 1" resourcePath="/Dummy API" service="TestAPI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest id="cc6c802a-4e9a-4d74-b1b2-1418f8728f18" mediaType="application/json" name="REST Request">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
@@ -15,13 +15,13 @@
         <con:endpoint>https://reqres.in/api/users?page=2</con:endpoint>
         <con:request/>
         <con:originalUri>https://reqres.in/api/users</con:originalUri>
-        <con:assertion type="Valid HTTP Status Codes" id="f1920218-b884-44c1-b544-39389ccdbbdf" name="Valid HTTP Status Codes">
+        <con:assertion id="f1920218-b884-44c1-b544-39389ccdbbdf" name="Valid HTTP Status Codes" type="Valid HTTP Status Codes">
           <con:settings/>
           <con:configuration>
             <codes>200</codes>
           </con:configuration>
         </con:assertion>
-        <con:assertion type="Response SLA Assertion" id="ea58d592-b40b-4024-b1e7-7aa1f8c91d42" name="Response SLA">
+        <con:assertion id="ea58d592-b40b-4024-b1e7-7aa1f8c91d42" name="Response SLA" type="Response SLA Assertion">
           <con:configuration>
             <SLA>200</SLA>
           </con:configuration>
